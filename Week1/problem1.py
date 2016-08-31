@@ -1,5 +1,3 @@
-word = s
-
 def countVowels(word):
 	# Returns count of vowels in a word
 
@@ -12,4 +10,7 @@ def countVowels(word):
 	return(vowel_count)
 
 
+# Call function for grading
+
+word = s
 print("Number of vowels:", str(countVowels(word)))
