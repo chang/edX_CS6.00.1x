@@ -9,6 +9,8 @@ def alphabetical_substring(string):
 	1. Iterate through each letter in string
 	2. Check consecutive letters to find longest string
 	3. Store all in a list, then return longest
+
+	returns in list [string, length]
 	'''
 	stringList = []
 
