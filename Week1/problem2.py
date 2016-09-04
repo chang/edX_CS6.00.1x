@@ -1,6 +1,9 @@
-def countbob(word):
-	# Returns count of substring "bob" in word
+'''
+Problem 2 - Week 1
+Return the count of substring 'bob' in a string
+'''
 
+def countbob(word):
 	bob_count = 0
 
 	for i in range(0, len(word) - 2):
@@ -10,9 +13,9 @@ def countbob(word):
 		if(substr == "bob"):
 			bob_count += 1
 
-	#print("Number of times bob occurs is:", str(bob_count))
 	print(str(bob_count))
 
-# Call function for grading
-word = s
+# # Call function for grading
+# word = s
+word = "bob the builder had a friend named bob"
 countbob(word)
